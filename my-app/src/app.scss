@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+$brand_primary: #dd8117;
+
+h1 {
+  color: $brand_primary;
+}
+
+h5{
+  background-color: $brand_primary;
+}
