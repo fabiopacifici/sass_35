@@ -1,0 +1,13 @@
+/* Common rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins',
+    sans-serif;
+  width: 1000px;
+  margin: auto;
+}
