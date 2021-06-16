@@ -1,0 +1,50 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/commons';
+
+@import 'partials/site_header';
+
+
+.btn_small {
+  @include base_button;
+  background-color: $brand_color;
+  padding: 0.5rem;
+  color: white;
+  font-size: 10px;
+}
+
+.btn_lg {
+  @include base_button;
+  background-color: $brand_color;
+  color: white;
+  font-size: 16px;
+}
+
+
+/* Utilities */
+.bg_dark {
+  background-color: $brand_color;
+  padding: 1rem;
+  color: white;
+}
+
+
+.container {
+  width: 800px;
+  margin: auto;
+
+  p {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+  }
+
+  &>p {
+    background-color: purple;
+  }
+
+  &:hover {
+    border: 4px solid green;
+  }
+
+}
